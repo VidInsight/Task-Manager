@@ -29,7 +29,7 @@ class RabbitMQClient:
         RabbitMQ sunucusuna bağlantı kurar.
         """
         try:
-            credentials = pika.PlainCredentials('vicloud01', 'vicloud01')
+            credentials = pika.PlainCredentials('vicloud02', 'XosW21%f')
             parameters = pika.ConnectionParameters(
                 host='45.141.151.45',
                 port=5672,
